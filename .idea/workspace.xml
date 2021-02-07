@@ -2,44 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbf308df-4d33-4bbc-b463-6cb1d6779df2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot/src/main/java/com/testing/poc/deal/MainApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot/src/main/resources/db/changelog/changes/table-creation-script.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot/src/main/resources/db/changelog/db.changelog-master.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot/target/boot-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot/target/classes/com/testing/poc/deal/MainApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot/target/classes/db/changelog/changes/table-creation-script.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot/target/classes/db/changelog/db.changelog-master.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deal.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/target/domain-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infrastructure/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infrastructure/target/infrastructure-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infrastructure/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infrastructure/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infrastructure/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/src/main/resources/db/changelog/changes/002-add-region-column-deal.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/src/main/resources/db/changelog/changes/003-create-facility-table.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/src/main/resources/db/changelog/changes/004-add-foreign-ket-to-facility.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/boot/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/src/main/resources/db/changelog/changes/table-creation-script.yml" beforeDir="false" afterPath="$PROJECT_DIR$/boot/src/main/resources/db/changelog/changes/001-create-deal-table.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/src/main/resources/db/changelog/db.changelog-master.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/boot/src/main/resources/db/changelog/db.changelog-master.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/target/boot-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/target/classes/com/testing/poc/deal/MainApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/target/classes/db/changelog/changes/table-creation-script.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/target/classes/db/changelog/db.changelog-master.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/domain-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/target/infrastructure-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/boot/target/" />
     <ignored path="$PROJECT_DIR$/domain/target/" />
     <ignored path="$PROJECT_DIR$/infrastructure/target/" />
+    <ignored path=".idea/" />
+    <ignored mask="*.jar" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,22 +44,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="Deal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/testing/poc/deal/model/Deal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boot/src/main/java/com/testing/poc/deal/MainApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,28 +60,24 @@
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/infrastructure/pom.xml">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+            <state relative-caret-position="85">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/domain/pom.xml">
+      <file leaf-file-name="MainApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boot/src/main/java/com/testing/poc/deal/MainApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boot/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+            <state relative-caret-position="136">
+              <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#249#250#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,8 +85,17 @@
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/boot/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            <state relative-caret-position="51">
+              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Repository.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.4.RELEASE/spring-data-commons-2.1.4.RELEASE.jar!/org/springframework/data/repository/Repository.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -109,26 +103,17 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="7" selection-start-column="7" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db.changelog-master.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boot/src/main/resources/db/changelog/db.changelog-master.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="table-creation-script.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boot/src/main/resources/db/changelog/changes/table-creation-script.yml">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="11" />
+              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="003-create-facility-table.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boot/src/main/resources/db/changelog/changes/003-create-facility-table.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="6" column="33" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -138,6 +123,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -161,15 +147,36 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/domain/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/boot/src/main/java/MainApplication.java" />
         <option value="$PROJECT_DIR$/boot/src/main/resources/db/changelog/db-changelog.json" />
         <option value="$PROJECT_DIR$/boot/pom.xml" />
-        <option value="$PROJECT_DIR$/infrastructure/pom.xml" />
-        <option value="$PROJECT_DIR$/boot/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/boot/src/main/resources/db/changelog/changes/Table_CReation_Script.yml" />
+        <option value="$PROJECT_DIR$/domain/src/test/java/com/testing/poc/deal/services/DealService.java" />
+        <option value="$PROJECT_DIR$/domain/pom.xml" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/com/testing/poc/deal/services/IDealRepository.java" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/com/testing/poc/deal/Repository/IDealRepository.java" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/com/testing/poc/deal/services/DealService.java" />
+        <option value="$PROJECT_DIR$/boot/src/main/resources/db/changelog/changes/001-create-deal-table.yml" />
         <option value="$PROJECT_DIR$/boot/src/main/resources/db/changelog/db.changelog-master.yaml" />
+        <option value="$PROJECT_DIR$/boot/src/main/resources/db/changelog/changes/003-create-dealo-table.yaml" />
+        <option value="$PROJECT_DIR$/boot/src/main/resources/db/changelog/changes/1.xml" />
+        <option value="$PROJECT_DIR$/boot/src/main/resources/db/changelog/changes/002-add-region-column-deal.yaml" />
+        <option value="$PROJECT_DIR$/boot/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/boot/src/main/resources/db/changelog/changes/003-create-facility-table.yaml" />
+        <option value="$PROJECT_DIR$/boot/src/main/resources/db/changelog/changes/004-add-foreign-ket-to-facility.yaml" />
+        <option value="$PROJECT_DIR$/infrastructure/pom.xml" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/com/testing/poc/deal/model/DealEntity.java" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/com/testing/poc/deal/model/Facility.java" />
+        <option value="$PROJECT_DIR$/infrastructure/src/main/java/com/testing/poc/deal/model/FacilityEnity.java" />
+        <option value="$PROJECT_DIR$/infrastructure/src/test/java/MapperTest.java" />
+        <option value="$PROJECT_DIR$/domain/src/test/java/com/testing/poc/deal/services/DealServiceTest.java" />
+        <option value="$PROJECT_DIR$/boot/src/main/java/com/testing/poc/deal/MainApplication.java" />
+        <option value="$PROJECT_DIR$/infrastructure/src/main/java/com/testing/poc/deal/model/DealEntity.java" />
+        <option value="$PROJECT_DIR$/infrastructure/src/main/java/com/testing/poc/deal/model/FacilityEntity.java" />
+        <option value="$PROJECT_DIR$/infrastructure/src/main/java/com/testing/poc/deal/model/DealRest.java" />
+        <option value="$PROJECT_DIR$/infrastructure/src/main/java/com/testing/poc/deal/model/DealRepo.java" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/com/testing/poc/deal/model/Deal.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -211,6 +218,21 @@
               <item name="deal" type="b2602c69:ProjectViewProjectNode" />
               <item name="deal" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="deal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deal" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deal" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deal" type="462c0819:PsiDirectoryNode" />
+              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -224,9 +246,14 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/infrastructure/src/main/java/com/testing/poc/deal" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.7229885" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -235,9 +262,16 @@
       <recent name="C:\Users\abderrahim.el-baz\Desktop\deal\boot\src\main\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.testing.poc.deal.model" />
+      <recent name="com.testing.poc.deal.Repository" />
       <recent name="com.testing.poc.deal" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.testing.poc.deal.model" />
+      <recent name="com.testing.poc.deal.services" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\abderrahim.el-baz\Desktop\deal\boot\src\main\resources\db\changelog\changes" />
       <recent name="C:\Users\abderrahim.el-baz\Desktop\deal\infrastructure" />
       <recent name="C:\Users\abderrahim.el-baz\Desktop\deal\boot" />
       <recent name="C:\Users\abderrahim.el-baz\Desktop\deal\domain" />
@@ -255,9 +289,95 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.MainApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="DealServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="domain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testing.poc.deal.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.testing.poc.deal.services" />
+      <option name="MAIN_CLASS_NAME" value="com.testing.poc.deal.services.DealServiceTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="DealServiceTest.should_not_create_deal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="domain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testing.poc.deal.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.testing.poc.deal.services" />
+      <option name="MAIN_CLASS_NAME" value="com.testing.poc.deal.services.DealServiceTest" />
+      <option name="METHOD_NAME" value="should_not_create_deal" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="DealServiceTest.should_not_create_deal_when_id_is_null" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="domain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testing.poc.deal.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.testing.poc.deal.services" />
+      <option name="MAIN_CLASS_NAME" value="com.testing.poc.deal.services.DealServiceTest" />
+      <option name="METHOD_NAME" value="should_not_create_deal_when_id_is_null" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MapperTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="infrastructure" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MapperTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -301,9 +421,20 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.MainApplication" />
+      <item itemvalue="JUnit.DealServiceTest" />
+      <item itemvalue="JUnit.DealServiceTest.should_not_create_deal" />
+      <item itemvalue="JUnit.DealServiceTest.should_not_create_deal_when_id_is_null" />
+      <item itemvalue="JUnit.MapperTest.test" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.MainApplication" />
+        <item itemvalue="JUnit.MapperTest.test" />
+        <item itemvalue="JUnit.DealServiceTest" />
+        <item itemvalue="JUnit.DealServiceTest.should_not_create_deal_when_id_is_null" />
+        <item itemvalue="JUnit.DealServiceTest.should_not_create_deal" />
       </list>
     </recent_temporary>
   </component>
@@ -317,12 +448,59 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612621617499</updated>
-      <workItem from="1612621623460" duration="3689000" />
+      <workItem from="1612621623460" duration="15277000" />
     </task>
+    <task id="LOCAL-00001" summary="[Ticket-JIRA 1] service creation - initial commit">
+      <created>1612625442630</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612625442631</updated>
+    </task>
+    <task id="LOCAL-00002" summary="[Ticket-JIRA 2] deal service - create">
+      <created>1612627740277</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612627740277</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="DealServiceTest_should_create_deal - 2021.02.06 at 16h 58m 09s.xml">
+      <configuration name="DealServiceTest.should_create_deal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DealServiceTest_should_create_deal - 2021.02.06 at 16h 58m 36s.xml">
+      <configuration name="DealServiceTest.should_create_deal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DealServiceTest_should_not_create_deal - 2021.02.06 at 17h 01m 39s.xml">
+      <configuration name="DealServiceTest.should_not_create_deal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DealServiceTest_should_not_create_deal - 2021.02.06 at 17h 03m 34s.xml">
+      <configuration name="DealServiceTest.should_not_create_deal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DealServiceTest_should_not_create_deal_when_id_is_null - 2021.02.06 at 17h 03m 44s.xml">
+      <configuration name="DealServiceTest.should_not_create_deal_when_id_is_null" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DealServiceTest_should_not_create_deal_when_id_is_null - 2021.02.06 at 17h 04m 35s.xml">
+      <configuration name="DealServiceTest.should_not_create_deal_when_id_is_null" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DealServiceTest - 2021.02.06 at 17h 04m 40s.xml">
+      <configuration name="DealServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DealServiceTest - 2021.02.06 at 17h 05m 17s.xml">
+      <configuration name="DealServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MapperTest_test - 2021.02.07 at 00h 45m 18s.xml">
+      <configuration name="MapperTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MapperTest_test - 2021.02.07 at 00h 50m 00s.xml">
+      <configuration name="MapperTest.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3689000" />
+    <option name="totallyTimeSpent" value="15277000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1368" y="-8" width="1376" height="744" extended-state="6" />
@@ -339,21 +517,21 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4871795" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32968536" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32763532" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Java Enterprise" weight="0.32838285" />
+      <window_info anchor="bottom" id="Java Enterprise" weight="0.32763532" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" x="0" y="292" width="1536" height="239" id="Run" order="2" type="SLIDING" weight="0.39438945" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.46864685" />
-      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" x="0" y="292" width="1536" height="239" id="Run" order="2" type="SLIDING" weight="0.45156696" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.47524753" />
+      <window_info anchor="bottom" id="Spring" weight="0.32838285" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.5445545" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21884498" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33966565" />
       <window_info anchor="right" id="Bean Validation" />
       <window_info id="Web" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -366,34 +544,53 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[Ticket-JIRA 1] service creation - initial commit" />
+    <MESSAGE value="[Ticket-JIRA 2] deal service - create" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Ticket-JIRA 2] deal service - create" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/domain/src/test/java/com/testing/poc/deal/services/DealServiceTest.java</url>
+          <line>30</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/domain/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot/src/main/java/com/testing/poc/deal/MainApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter/2.1.2.RELEASE/spring-boot-starter-2.1.2.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-765" />
@@ -430,57 +627,334 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/boot/src/main/resources/db/changelog/changes/script1.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="55" lean-forward="true" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar!/javax/persistence/Entity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-data-jpa/2.1.2.RELEASE/spring-boot-starter-data-jpa-2.1.2.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-901">
-          <caret line="10" column="55" lean-forward="true" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+        <state relative-caret-position="663">
+          <caret line="51" column="40" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/test/java/com/testing/poc/deal/services/DealService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/2.23.4/mockito-core-2.23.4.jar!/org/mockito/Mockito.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="78" column="24" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
+          <folding>
+            <element signature="e#2857#2858#0" expanded="true" />
+            <element signature="e#2915#2916#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/testing/poc/deal/services/DealService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot/src/main/resources/db/changelog/changes/003-create-dealo-table.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot/src/main/resources/db/changelog/changes/1.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot/src/main/resources/db/changelog/db.changelog-master.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot/src/main/resources/db/changelog/changes/001-create-deal-table.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot/src/main/resources/db/changelog/changes/002-add-region-column-deal.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot/src/main/resources/db/changelog/changes/004-add-foreign-ket-to-facility.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/infrastructure/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        <state relative-caret-position="144">
+          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boot/src/main/resources/db/changelog/changes/script1.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot/src/main/resources/db/changelog/changes/table-creation-script.yml">
+    <entry file="file://$PROJECT_DIR$/domain/src/test/java/com/testing/poc/deal/services/DealServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="11" />
+        <state relative-caret-position="153">
+          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boot/src/main/resources/db/changelog/db.changelog-master.yaml">
+    <entry file="file://$PROJECT_DIR$/infrastructure/src/test/java/MapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="93">
+          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot/src/main/java/com/testing/poc/deal/MainApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infrastructure/src/main/java/com/testing/poc/deal/model/DealEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot/src/main/resources/db/changelog/changes/003-create-facility-table.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/testing/poc/deal/Repository/IDealRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.4.RELEASE/spring-web-5.1.4.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infrastructure/src/main/java/com/testing/poc/deal/model/DealRest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/boot/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        <state relative-caret-position="51">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infrastructure/src/main/java/com/testing/poc/deal/model/DealRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infrastructure/src/main/java/com/testing/poc/deal/model/FacilityEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.4.RELEASE/spring-data-commons-2.1.4.RELEASE.jar!/org/springframework/data/repository/Repository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/testing/poc/deal/model/Facility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/testing/poc/deal/model/Deal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        <state relative-caret-position="34">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.7229885" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.7229885" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>domain</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.7229885" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
