@@ -1,0 +1,18 @@
+databaseChangeLog:
+   - changeSet:
+       id: create-deal-FK-contraint
+       author: deal-user
+       changes:
+         - addColumn:
+             tableName: T_FACILITY
+             columns:
+               name: DEAL_ID
+               type: varchar(50)
+         - addForeignKeyConstraint:
+             constraintName: deal_FK
+             baseColumnNames: DEAL_ID
+             baseTableName: T_FACILITY
+             referencedColumnNames: id
+             referencedTableName: T_DEAL
+             onDelete:  CASCADE
+             onUpdate:  CASCADE

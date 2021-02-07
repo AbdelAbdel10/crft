@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: org.h2.Driver
-    url: jdbc:h2:~/deal
+    url: jdbc:h2:file:~/dealo
     username: sa
     password: sa
   h2:

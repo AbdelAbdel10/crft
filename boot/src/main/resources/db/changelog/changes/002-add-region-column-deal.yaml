@@ -1,0 +1,10 @@
+databaseChangeLog:
+   - changeSet:
+       id: 1
+       author: deal-user
+       changes:
+         - addColumn:
+             tableName: T_DEAL
+             columns:
+               name: region
+               type: varchar(50)

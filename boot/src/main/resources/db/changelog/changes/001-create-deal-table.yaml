@@ -4,22 +4,21 @@
       author: deal-user
       changes:
         - createTable:
-            tableName: person
+            tableName: T_DEAL
             columns:
               - column:
                   name: id
-                  type: int
-                  autoIncrement: true
+                  type: varchar(255)
                   constraints:
                     primaryKey: true
                     nullable: false
               - column:
-                  name: first_name
+                  name: name
                   type: varchar(255)
                   constraints:
                     nullable: false
               - column:
-                  name: last_name
-                  type: varchar(255)
+                  name: amount
+                  type: currency
                   constraints:
                     nullable: false

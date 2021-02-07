@@ -14,9 +14,18 @@ public class DealService {
     }
 
     public Deal create(Deal deal) {
-        if(Objects.isNull(deal) || Objects.isNull(deal.getId())) {
+        if (Objects.isNull(deal) || Objects.isNull(deal.getId())) {
             return null;
         }
+
         return dealRepository.save(deal);
+    }
+
+
+    public Deal findById(String dealId) throws Exception {
+        if (Objects.isNull(dealId)) {
+            throw new Exception();
+        }
+        return dealRepository.findById(dealId);
     }
 }
